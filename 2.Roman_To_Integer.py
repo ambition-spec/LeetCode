@@ -10,6 +10,6 @@ class Solution(object):
         li = list(s1)
         value = 0
         for i in li :
-            value += numeral_map[i]
+            value += numeral_map[i]  
         return value
 #拿空间换时间，增加了内存但是减少了时间
